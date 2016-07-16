@@ -38,7 +38,8 @@ export class WeatherSearchComponent{
             );
 
            
-
+             var height_value=document.getElementById('container').scrollHeight;
+            window.scrollTo(0, height_value);
 
 
     }
