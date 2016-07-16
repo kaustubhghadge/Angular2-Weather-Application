@@ -4,8 +4,8 @@ This is a Weather Application which provides temperature and current weather des
 
 This project is a work in progress. The purpose of this project is to understand the fundamentals of Angular 2.
 
-
 Setup: 
+
 Step 1. Clone this repository and in that location open up the terminal window. 
 
 Step 2. Type: npm install (for installing dependencies)
