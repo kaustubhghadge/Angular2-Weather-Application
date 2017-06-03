@@ -24,7 +24,7 @@ export class WeatherService{
 
     searchWeatherData(cityName: string): Observable<any>{
 
-        return this._http.get('http://api.openweathermap.org/data/2.5/weather?q='+cityName+'&APPID=2646e7d63bac97a1a36c5311ee690b77&units=metric')
+        return this._http.get('http://api.openweathermap.org/data/2.5/weather?q='+cityName+'&APPID=$APPID&units=metric')
         
                 .map(response=>response.json())
                 .catch(error=>{
